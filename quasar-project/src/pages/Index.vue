@@ -22,16 +22,16 @@
         <Chart id="targetNumbers" :option="chartOption.targetNumbers" />
       </div>
       <div class="col-12 col-sm-6">
-        <Chart id="countingAccuracy" :option="chartOption.countingAccuracy" />
-      </div>
-      <div class="col-12 col-sm-6">
-        <Chart id="predictAccuracy" :option="chartOption.predictAccuracy" />
-      </div>
-      <div class="col-12 col-sm-6">
         <Chart id="predictSamples" :option="chartOption.predictSamples" />
       </div>
       <div class="col-12 col-sm-6">
         <Chart id="predictHotMap" :option="chartOption.predictHotMap" />
+      </div>
+      <div class="col-12 col-sm-6">
+        <Chart id="countingAccuracy" :option="chartOption.countingAccuracy" />
+      </div>
+      <div class="col-12 col-sm-6">
+        <Chart id="predictAccuracy" :option="chartOption.predictAccuracy" />
       </div>
     </div>
     <div class="flex flex-center q-mt-lg">
