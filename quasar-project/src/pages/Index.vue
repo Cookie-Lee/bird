@@ -513,9 +513,3 @@ export default {
   text-align: center;
 }
 </style>
-
-<style scoped>
-div {
-  /* font-family: Microsoft JhengHei; */
-}
-</style>
